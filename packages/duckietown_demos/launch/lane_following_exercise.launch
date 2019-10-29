@@ -10,7 +10,7 @@
 		<arg name="veh" value="$(arg veh)"/>
 		<arg name="visualization" default="true" />
 		<!--arg name="verbose" value="$(arg verbose)"/-->
-    	<arg name="/camera/raw" default="true" />
+    <arg name="/camera/raw" default="true" />
 		<arg name="param_file_name" default="default" />
 		<arg name="line_detector_param_file_name" default="default" />
 		<arg name="anti_instagram" default="true" />
@@ -18,8 +18,8 @@
 		<arg name="ai_interval" value="$(arg ai_interval)"/>
 		<arg name="/lane_following/stop_line_filter" default="false" /> <!-- will not every allow a transition into COORDINATION mode -->
 		<arg name="vehicle_avoidance" default="true"/>
-        <arg name="/lane_following/lane_controller" default="false"/> <!-- We'll use the exercise controller instead -->
-        <arg name="/lane_following/lane_exercise_controller" default="true"/>
+    <arg name="/lane_following/lane_controller" default="false"/> <!-- We'll use the exercise controller instead -->
+    <arg name="/lane_following/lane_exercise_controller" default="true"/>
 		<arg name="exercise_name" value="$(arg exercise_name)"/>
 	</include>
 </launch>

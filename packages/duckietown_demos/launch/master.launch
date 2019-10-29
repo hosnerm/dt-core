@@ -43,8 +43,8 @@
 <arg name="/lane_following/ground_projection" default="true"/>
 <arg name="/lane_following/lane_filter" default="true"/>
 <arg name="/lane_following/stop_line_filter" default="true"/>
-<arg name="/lane_following/lane_controller" default="true"/>
-<arg name="/lane_following/lane_exercise_controller" default="false"/>
+<arg name="/lane_following/lane_controller" default="false"/>
+<arg name="/lane_following/lane_exercise_controller" default="true"/>
 
 <arg name="fsm" default="true"/>
 

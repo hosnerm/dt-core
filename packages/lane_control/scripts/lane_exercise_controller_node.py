@@ -40,7 +40,7 @@ class lane_controller(object):
 
         self.exercise = exercise
 
-        ex_path = "/CSII/Exercises/HWExercise" + str(exercise[0]) + "/controller-" + str(exercise[1]) + ".py"
+        ex_path = "/catkin_ws/src/dt-core/CSII/Exercises/HWExercise" + str(exercise[0]) + "/controller-" + str(exercise[1]) + ".py"
         template_src = imp.load_source('module.name', duckietown_root + ex_path)
         self.controller_class = template_src.Controller()
 
