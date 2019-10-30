@@ -232,7 +232,7 @@ class lane_controller(object):
 
 
         # Print out infos
-        rospy.loginfo("Omega: " + str(omega_out) + "    V: " + str(v_out) + "    Err: " + str(d_est - d_ref))
+        rospy.loginfo("Omega: " + str(omega_out) + "    V: " + str(v_out) + "  err_d: " + str(d_est - d_ref) + "  err_phi: " + str(phi_est - phi_ref) + "    dt_last: " + str(dt_last) + "    t_delay: " + str(t_delay))
 
         # Create message and publish
         car_control_msg = Twist2DStamped()
