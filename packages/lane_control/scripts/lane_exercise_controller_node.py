@@ -73,15 +73,16 @@ class lane_controller(object):
         # Setup array for time delay
         if int(self.exercise[0]) == 1 and int(self.exercise[1]) == 5:
             k_d = self.controller_class.k_d
-            if k_d > 0:
-                self.arr_delay = [[0, 0, 0, 0, 0, 0, 0]] # d_est, phi_est, d_ref, phi_ref, v_ref, t_delay, dt_last
-                for i in range(1, k_d):
-                    self.arr_delay.append([0, 0, 0, 0, 0, 0, 0])
+            #ONLY USED FOR OLD IMPLEMENTATION. NOT FOR NEW
+            # if k_d > 0:
+            #     self.arr_delay = [[0, 0, 0, 0, 0, 0, 0]] # d_est, phi_est, d_ref, phi_ref, v_ref, t_delay, dt_last
+            #     for i in range(1, k_d):
+            #         self.arr_delay.append([0, 0, 0, 0, 0, 0, 0])
 
         rospy.loginfo("[%s] Initialized " %(rospy.get_name()))
-        rospy.loginfo("\n\n\n\n\nREADY FOR EXERCISE " + exercise_name + "\n\n\n\n\n")
+        #rospy.loginfo("\n\n\n\n\nREADY FOR EXERCISE " + exercise_name + "\n\n\n\n\n")    #was just not true as other nodes need to be launched before ready for exercise!!
 
-        # Setup subscriptions for HWExercise 3
+        # Setup subscriptions for HWExercise 3 (Follow the leader)
         if int(self.exercise[0]) == 3 and str(self.exercise[1]) != "reference":
             self.sub_veh_pos = rospy.Subscriber("~veh_pos", VehiclePose, self.cbVehPose, queue_size=1)
 
@@ -92,6 +93,7 @@ class lane_controller(object):
         car_control_msg.omega = 0.0
         self.publishCmd(car_control_msg)
 
+        #for the follow the leader exercise (relative pose to backpattern)
     def cbVehPose(self, pose_msg):
         if self.stopTimer is not None:
             self.stopTimer.shutdown()
@@ -206,9 +208,13 @@ class lane_controller(object):
         if int(self.exercise[0]) == 1 and int(self.exercise[1]) == 5:
             k_d = self.controller_class.k_d
             if k_d > 0:
-                self.arr_delay.append([d_est, phi_est, d_ref, phi_ref, v_ref, t_delay, dt_last])
-                d_est, phi_est, d_ref, phi_ref, v_ref, t_delay, dt_last = self.arr_delay.pop(0)
-                t_delay += k_d * dt_last # HACK: same as in ex 1-4
+                #OLD IMPLEMENTATION: BAD because only gave a multiple of a highly unsteady value (dt_last)
+                # self.arr_delay.append([d_est, phi_est, d_ref, phi_ref, v_ref, t_delay, dt_last])
+                # d_est, phi_est, d_ref, phi_ref, v_ref, t_delay, dt_last = self.arr_delay.pop(0)
+                # t_delay += k_d * dt_last # HACK: same as in ex 1-4
+                #NEW IMPLEMENTATION: just add a sleep such that students can choose delay precisely
+                time.sleep(k_d*0.07)
+                t_delay += k_d * 0.07
 
         ########## END SUBEXERCISE CUSTOMIZATION BEFORE CONTROLLER ##########
 
@@ -232,7 +238,7 @@ class lane_controller(object):
 
 
         # Print out infos
-        rospy.loginfo("Omega: " + str(omega_out) + "    V: " + str(v_out) + "  err_d: " + str(d_est - d_ref) + "  err_phi: " + str(phi_est - phi_ref) + "    dt_last: " + str(dt_last) + "    t_delay: " + str(t_delay))
+        rospy.loginfo("Omega: " + str(omega_out) + "    V: " + str(v_out) + "    err_d: " + str(d_est - d_ref) + "    err_phi: " + str(phi_est - phi_ref) + "    dt_last: " + str(dt_last) + "    t_delay: " + str(t_delay))
 
         # Create message and publish
         car_control_msg = Twist2DStamped()
