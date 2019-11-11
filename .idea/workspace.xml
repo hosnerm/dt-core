@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3c40308-4820-4439-a080-90c78bbbf81e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CRA3-dt-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSII/Exercises/HWExercise1/controller-1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSII/Exercises/HWExercise1/controller-2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSII/Exercises/HWExercise1/controller-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRA3/controller-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSII/Exercises/HWExercise1/controller-4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSII/Exercises/HWExercise1/controller-5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSII/Exercises/HWExercise1/controller-6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSII/Exercises/HWExercise2/controller-1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSII/Exercises/HWExercise2/controller-reference.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSII/Exercises/HWExercise3/controller-1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSII/Exercises/HWExercise3/controller-reference.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRA3/controller-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSII/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies-py.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies-py.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/launch.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/anti_instagram/src/anti_instagram_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/anti_instagram/src/anti_instagram_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apriltags2_ros/apriltags2_ros/scripts/analyze_image.sh" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apriltags2_ros/apriltags2_ros/scripts/analyze_image.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apriltags_ros/apriltags_ros/src/apriltags_postprocessing_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apriltags_ros/apriltags_ros/src/apriltags_postprocessing_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apriltags_ros/apriltags_ros/tests/apriltags_integration_tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apriltags_ros/apriltags_ros/tests/apriltags_integration_tester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apriltags_ros/apriltags_ros/tests/apriltags_postprocessing_tester_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apriltags_ros/apriltags_ros/tests/apriltags_postprocessing_tester_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apriltags_ros/apriltags_ros/tests/apriltags_tester_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apriltags_ros/apriltags_ros/tests/apriltags_tester_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/complete_image_pipeline/src/calibrate_extrinsics" beforeDir="false" afterPath="$PROJECT_DIR$/packages/complete_image_pipeline/src/calibrate_extrinsics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/complete_image_pipeline/src/display_segmaps" beforeDir="false" afterPath="$PROJECT_DIR$/packages/complete_image_pipeline/src/display_segmaps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/complete_image_pipeline/src/single_image_pipeline" beforeDir="false" afterPath="$PROJECT_DIR$/packages/complete_image_pipeline/src/single_image_pipeline" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/complete_image_pipeline/src/single_image_pipeline_log" beforeDir="false" afterPath="$PROJECT_DIR$/packages/complete_image_pipeline/src/single_image_pipeline_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/complete_image_pipeline/src/validate_calibration" beforeDir="false" afterPath="$PROJECT_DIR$/packages/complete_image_pipeline/src/validate_calibration" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/duckiebot_visualizer/src/duckiebot_visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/duckiebot_visualizer/src/duckiebot_visualizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/duckietown_demos/launch/implicit_coordination.launch" beforeDir="false" afterPath="$PROJECT_DIR$/packages/duckietown_demos/launch/implicit_coordination.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/easy_algo/src/summary" beforeDir="false" afterPath="$PROJECT_DIR$/packages/easy_algo/src/summary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/easy_logs/src/details" beforeDir="false" afterPath="$PROJECT_DIR$/packages/easy_logs/src/details" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/easy_logs/src/download" beforeDir="false" afterPath="$PROJECT_DIR$/packages/easy_logs/src/download" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/easy_logs/src/find" beforeDir="false" afterPath="$PROJECT_DIR$/packages/easy_logs/src/find" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/easy_logs/src/gallery" beforeDir="false" afterPath="$PROJECT_DIR$/packages/easy_logs/src/gallery" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/easy_logs/src/ipfs-pack" beforeDir="false" afterPath="$PROJECT_DIR$/packages/easy_logs/src/ipfs-pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/easy_logs/src/summary" beforeDir="false" afterPath="$PROJECT_DIR$/packages/easy_logs/src/summary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/easy_logs/src/thumbnails" beforeDir="false" afterPath="$PROJECT_DIR$/packages/easy_logs/src/thumbnails" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/easy_logs/src/videos" beforeDir="false" afterPath="$PROJECT_DIR$/packages/easy_logs/src/videos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/easy_node/src/desc" beforeDir="false" afterPath="$PROJECT_DIR$/packages/easy_node/src/desc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/easy_node/src/eval" beforeDir="false" afterPath="$PROJECT_DIR$/packages/easy_node/src/eval" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/easy_node/src/generate_docs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/easy_node/src/generate_docs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/easy_node/src/summary" beforeDir="false" afterPath="$PROJECT_DIR$/packages/easy_node/src/summary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/explicit_coordinator/src/_CoordinationSignalETHZ17.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/explicit_coordinator/src/_CoordinationSignalETHZ17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/explicit_coordinator/src/coordinator_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/explicit_coordinator/src/coordinator_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/explicit_coordinator/src/fake_coordinator_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/explicit_coordinator/src/fake_coordinator_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/explicit_coordinator/src/fake_duckiebot.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/explicit_coordinator/src/fake_duckiebot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/explicit_coordinator/src/fake_intersection_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/explicit_coordinator/src/fake_intersection_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/explicit_coordinator/src/simple_coordinator_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/explicit_coordinator/src/simple_coordinator_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/fsm/src/fsm_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/fsm/src/fsm_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/fsm/src/logic_gate_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/fsm/src/logic_gate_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ground_projection/scripts/ex_estimate_homography.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ground_projection/scripts/ex_estimate_homography.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ground_projection/scripts/ex_get_ground_coordinate.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ground_projection/scripts/ex_get_ground_coordinate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ground_projection/scripts/test_projection.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ground_projection/scripts/test_projection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ground_projection/scripts/test_projection_auto.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ground_projection/scripts/test_projection_auto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ground_projection/src/ground_projection_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ground_projection/src/ground_projection_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/indefinite_navigation/src/count_turns.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/indefinite_navigation/src/count_turns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/indefinite_navigation/src/detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/indefinite_navigation/src/detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/indefinite_navigation/src/simple_servo.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/indefinite_navigation/src/simple_servo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/indefinite_navigation/src/test_straight_line.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/indefinite_navigation/src/test_straight_line.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/indefinite_navigation/tests/test_kinematics.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/indefinite_navigation/tests/test_kinematics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/indefinite_navigation/tests/test_turn.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/indefinite_navigation/tests/test_turn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lane_control/scripts/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lane_control/scripts/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lane_control/scripts/lane_controller_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lane_control/scripts/lane_controller_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lane_control/scripts/lane_exercise_controller_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lane_control/scripts/lane_exercise_controller_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lane_control/scripts/vicon_for_lane_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lane_control/scripts/vicon_for_lane_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lane_filter/src/lane_filter_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lane_filter/src/lane_filter_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lane_filter/src/lane_filter_tester_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lane_filter/src/lane_filter_tester_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lane_filter/src/lane_pose_visualizer_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/lane_filter/src/lane_pose_visualizer_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/led_detection/scripts/annotate_rosbag.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/led_detection/scripts/annotate_rosbag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/led_detection/scripts/test_log_reading.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/led_detection/scripts/test_log_reading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/led_detection/scripts/unittests.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/led_detection/scripts/unittests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/led_detection/src/LED_detector_node_old.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/led_detection/src/LED_detector_node_old.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/led_detection/src/LED_detector_node_old.py.orig" beforeDir="false" afterPath="$PROJECT_DIR$/packages/led_detection/src/LED_detector_node_old.py.orig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/led_detection/src/LED_visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/led_detection/src/LED_visualizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/led_detection/src/led_detector_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/led_detection/src/led_detector_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/led_interpreter/src/LED_interpreter_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/led_interpreter/src/LED_interpreter_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/led_joy_mapper/src/led_joy_mapper_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/led_joy_mapper/src/led_joy_mapper_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/led_joy_mapper/src/led_joy_mapper_node_old.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/led_joy_mapper/src/led_joy_mapper_node_old.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/led_pattern_switch/src/led_pattern_switch_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/led_pattern_switch/src/led_pattern_switch_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/line_detector/src/line_detector_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/line_detector/src/line_detector_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/line_detector/src/line_detector_node_sweep_param.py.old" beforeDir="false" afterPath="$PROJECT_DIR$/packages/line_detector/src/line_detector_node_sweep_param.py.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/line_detector2/src/line_detector_node2.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/line_detector2/src/line_detector_node2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/line_detector2/src/programmatic" beforeDir="false" afterPath="$PROJECT_DIR$/packages/line_detector2/src/programmatic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/navigation/include/navigation/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/navigation/include/navigation/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/navigation/include/navigation/search_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/navigation/include/navigation/search_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/navigation/include/navigation/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/navigation/include/navigation/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/navigation/src/actions_dispatcher_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/navigation/src/actions_dispatcher_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/navigation/src/graph_search_client_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/navigation/src/graph_search_client_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/navigation/src/graph_search_server_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/navigation/src/graph_search_server_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/navigation/src/random_april_tag_turns_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/navigation/src/random_april_tag_turns_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/navigation/src/rqt_navigation" beforeDir="false" afterPath="$PROJECT_DIR$/packages/navigation/src/rqt_navigation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/navigation/src/sr_turns_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/navigation/src/sr_turns_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/pi_camera/src/cam_info_reader_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/pi_camera/src/cam_info_reader_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/pi_camera/src/decoder_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/pi_camera/src/decoder_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/pi_camera/src/img_process_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/pi_camera/src/img_process_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/stop_line_filter/src/stop_line_filter_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/stop_line_filter/src/stop_line_filter_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/stop_line_filter/src/stop_line_filter_tester_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/stop_line_filter/src/stop_line_filter_tester_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/stop_line_filter/src/stop_line_pose_visualizer_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/stop_line_filter/src/stop_line_pose_visualizer_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/unicorn_intersection/src/unicorn_intersection_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/unicorn_intersection/src/unicorn_intersection_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/vehicle_detection/src/vehicle_avoidance_control_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/vehicle_detection/src/vehicle_avoidance_control_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/vehicle_detection/src/vehicle_avoidance_control_node_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/vehicle_detection/src/vehicle_avoidance_control_node_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/vehicle_detection/src/vehicle_detection_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/vehicle_detection/src/vehicle_detection_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/vehicle_detection/src/vehicle_detection_node_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/vehicle_detection/src/vehicle_detection_node_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/vehicle_detection/src/vehicle_filter_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/vehicle_detection/src/vehicle_filter_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/vehicle_detection/src/vehicle_filter_node_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/vehicle_detection/src/vehicle_filter_node_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/virtual_joystick/scripts/virtual_joystick_cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/virtual_joystick/scripts/virtual_joystick_cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/virtual_joystick/scripts/virtual_joystick_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/virtual_joystick/scripts/virtual_joystick_gui.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectId" id="1TK8Zi5v2TdXmDlO7rCjSDMN4LO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../course-CRA" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="CRA3-dt-core" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3c40308-4820-4439-a080-90c78bbbf81e" name="Default Changelist" comment="" />
+      <created>1573197483385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573197483385</updated>
+      <workItem from="1573197486535" duration="2935000" />
+      <workItem from="1573203684776" duration="11337000" />
+      <workItem from="1573225622988" duration="68000" />
+      <workItem from="1573225712797" duration="4424000" />
+      <workItem from="1573466291830" duration="1396000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
