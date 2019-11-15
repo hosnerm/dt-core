@@ -32,14 +32,12 @@ class lane_controller(object):
         # safe shutdown
         rospy.on_shutdown(self.custom_shutdown)
 
-        duckietown_root = os.environ['DUCKIETOWN_ROOT'] #assumes they sourced environment.sh
+        duckietown_root = os.environ['DUCKIETOWN_ROOT']  # assumes they sourced environment.sh
         # Load files for HW-Exercises
 
-        exercise_name = rospy.get_param("~exercise_name")
+        self.exercise = rospy.get_param("~exercise_name")
 
-        self.exercise = exercise_name
-
-        ex_path = "/catkin_ws/src/dt-core/CRA3/controller-" + str(exercise[1]) + ".py"
+        ex_path = "/catkin_ws/src/dt-core/CRA3/controller-" + str(self.exercise) + ".py"
         template_src = imp.load_source('module.name', duckietown_root + ex_path)
         self.controller_class = template_src.Controller()
 
@@ -70,7 +68,7 @@ class lane_controller(object):
         self.stopTimer = None
 
         # Setup array for time delay
-        if int(self.exercise[0]) == 1:
+        if int(self.exercise) == 1:
             k_d = self.controller_class.k_d
 
 
@@ -78,7 +76,7 @@ class lane_controller(object):
         #rospy.loginfo("\n\n\n\n\nREADY FOR EXERCISE " + exercise_name + "\n\n\n\n\n")    #was just not true as other nodes need to be launched before ready for exercise!!
 
         # Setup subscriptions for HWExercise 3 (Follow the leader)
-        if int(self.exercise[0]) == 3 and str(self.exercise[1]) != "reference":
+        if int(self.exercise) == 3:
             self.sub_veh_pos = rospy.Subscriber("~veh_pos", VehiclePose, self.cbVehPose, queue_size=1)
 
 
@@ -151,7 +149,7 @@ class lane_controller(object):
 
 
     def cbPose(self, lane_pose_msg):
-        if int(self.exercise[0]) == 3 and str(self.exercise[1]) != "reference":
+        if int(self.exercise) == 3:
             return
 
 
@@ -190,7 +188,7 @@ class lane_controller(object):
         ########## SUBEXERCISE CUSTOMIZATION BEFORE CONTROLLER ##########
 
         # SAMPLING RATE ADJUSTMENT IN EXERCISE 1-4
-        if int(self.exercise[0]) == 1:
+        if int(self.exercise) == 1:
             k_s = self.controller_class.k_s
             if k_s != 0:
                 if self.z_samp % k_s != 0:
@@ -200,7 +198,7 @@ class lane_controller(object):
                 self.z_samp = 0
 
         # TIME DELAY IN EXERCISE 1-5
-        if int(self.exercise[0]) == 1:
+        if int(self.exercise) == 1:
             k_d = self.controller_class.k_d
             if k_d > 0:
                 #NEW IMPLEMENTATION: just add a sleep such that students can choose delay precisely
@@ -216,7 +214,7 @@ class lane_controller(object):
         ########## SUBEXERCISE CUSTOMIZATION AFTER CONTROLLER ##########
 
         # SATURATION IN EXERCISE 1-3
-        if int(self.exercise[0]) == 1:
+        if int(self.exercise) == 1:
             omega_max = self.controller_class.u_sat
             if omega_out > omega_max:
                 omega_out = omega_max
