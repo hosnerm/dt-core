@@ -10,7 +10,7 @@ class Controller():
         # Define cost matrices here:
         # define numpy matrices with: self.A = numpy.array([[a11, a12], [a21, a22]])
 
-        #TODO
+        #TODO: add discretized matrices
 
         # Inputs:   d_est   Estimation of distance from lane center (positve when
         #                   offset to the left of driving direction) [m]
@@ -31,7 +31,7 @@ class Controller():
         if (dt_last == 0): dt_last = 0.0001
         # Your code goes here:
 
-        #TODO
+        #TODO implement LQR
 
         return (v_out, omega_out)
 

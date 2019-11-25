@@ -5,14 +5,14 @@ class Controller():
     def __init__(self):
 
         # EX 1:  Gains for controller
-        self.k_P = 
-        self.k_I = 
+        self.k_P = 0
+        self.k_I = 0
 
         # EX 1: initialize variable for integral
         self.C_I = 0
 
         # EX 2:Specify the sampling time. k_s = 2 means that the time between two
-        # executions gets doubled (for k_s= 1: T =~ 70ms)
+        # executions gets doubled (for k_s= 1: T =~ 85ms)
         self.k_s = 1
 
         # EX 3: Specify the time delay. k_d = 1 means that there is a time delay
@@ -21,7 +21,7 @@ class Controller():
         self.k_d = 0
 
         # EX 4: Saturation of motors [rad/s]
-        self.u_sat = 999
+        self.u_sat = 2
 
         # EX 4: Feedback gain for anti-windup
         self.k_t = 0
@@ -44,6 +44,3 @@ class Controller():
 
 
         return (v_out, omega_out)
-
-
-    

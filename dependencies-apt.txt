@@ -32,3 +32,4 @@ python-smbus
 libturbojpeg
 python-cffi
 python-skimage
+vim
