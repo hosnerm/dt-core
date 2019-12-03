@@ -9,11 +9,13 @@ class Controller():
         #Define cost matrices here:
         #defnfine matrices with: self.A = numpy.array([[a11, a12], [a21, a22]])
         self.d_int = 0.
-        self.q = np.array([[80., 0, 0], [0, 5., 0], [0, 0, 2]])
-        self.r = np.array([0.02])
-        self.gain = 0.5
-
-        #TODO
+        self.q = np.array([[2.8,0,0],[0,2.6,0],[0,0,2.3]])
+        #normalize
+        norm_val = np.linalg.norm(self.q, np.inf)
+        self.q = self.q / norm_val
+        self.r = np.array([0.04])
+        self.gain = 1.0
+	
 
     # Inputs:   d_est   Estimation of distance from lane center (positve when
     #                   offset to the left of driving direction) [m]
@@ -43,7 +45,7 @@ class Controller():
         #Change sign on on K_I (because Ricatti equation returns [K_d, K_phi, -K_I])
         g[[0],[2]] = -g[[0],[2]]
         #Calculate new input
-        omega_out = -g*x*self.gain
+        omega_out = -g.dot(x)*self.gain
         #Update integral term
         self.d_int = self.d_int + d_est * dt_last
         return (v_out, omega_out)
