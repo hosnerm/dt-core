@@ -7,7 +7,7 @@ class Controller():
     def __init__(self):
 
         #Define cost matrices here:
-        #defnfine matrices with: self.A = numpy.array([[a11, a12], [a21, a22]])
+        #define matrices with: self.A = numpy.array([[a11, a12], [a21, a22]])
         self.d_int = 0.
         self.q = np.array([[2.8,0,0],[0,2.6,0],[0,0,2.3]])
         #normalize
